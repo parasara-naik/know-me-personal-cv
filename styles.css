@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(216, 216, 234);
+    text-align: center;
+    padding-top: 0px;
+    font-family:cursive;
+}
+h1{
+    /*margin-top: 50px;*/
+    margin: 50px auto 0 auto;
+    color: rgb(193, 4, 4);
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #66bfbf; 
+    font-size:  2.5rem;
+    font-weight: extra bold;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+    color: #66bfbf;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+}
+
+.description{
+    color: rgb(5, 163, 11);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    /*position: absolute;
+    top: 35%;
+    left: 46%;*/
+}
+.topcontainer{
+    background-color: #dcb4c7;
+    position: relative;
+    padding-top: 100px;
+    
+}
+    
+.middlecontainer {
+    background-color: rgb(240, 234, 234);
+    padding-bottom: 20px; 
+  
+
+}
+.bottomcontainer {
+    background-color: rgb(181, 181, 200);
+    padding: 50px 0 20px;
+    
+}
+.pro{
+    text-decoration:wavy;
+}
+.top-cloud{
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.parasara-image{
+    margin-top: 50px;
+    width: 200px;
+}
+.skill-image{
+    
+    width: 25%;
+    float: left;
+    margin-right: 50px ;
+}
+.game-image{
+    
+    width: 25%; 
+    float: right;
+    margin-left: 50px ;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+    color: #725148;
+    font-size: 20px;
+}
+hr{
+    border: dotted;
+    border-bottom: none;
+    border-width: 10px;
+    width: 10%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    color: #f76d47;
+}
+
+.hr2{
+    border: dotted;
+    border-bottom: none;
+    border-width: 10px;
+    width: 10%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: #f76d47;
+}
+
+a:hover{
+    color: #890808;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #7689e4;
+    margin: 20px;
+}
+.copyright{
+    font-size: 15px;
+    padding: 20px;
+}
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999e);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999e);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999e);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999e);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: extra bold;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
